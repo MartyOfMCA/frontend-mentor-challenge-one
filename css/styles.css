@@ -1,5 +1,4 @@
-@import "https://fonts.google.com/specimen/Fraunces";
-@import "https://fonts.google.com/specimen/Montserrat";
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500&display=swap');
 
 :root {
     --bg-img: '';
@@ -65,12 +64,13 @@ body {
 
 .content__caption {
     text-transform: uppercase;
-    letter-spacing: .3rem;
+    letter-spacing: .4rem;
     font-weight: 500;
 }
 
 .content__title {
     font-family: Fraunces;
+    font-weight: 900;
     color: hsl(212, 21%, 14%);
 }
 
