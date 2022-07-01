@@ -17,8 +17,10 @@ html {
 }
 
 body {
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100vmin;
     font-size: 1.4rem;
     font-family: Montserrat;
@@ -35,6 +37,7 @@ body {
     flex-direction: column;
     width: min(37.5rem, 80%);
     margin-inline: auto;
+    margin-block-start: auto;
 }
 
 .cover-photo {
@@ -129,7 +132,7 @@ body {
 
 @media (min-width: 760px) {
     .main {
-        width: min(144rem, 80%);
+        width: min(76rem, 80%);
         flex-direction: row;
     }
 
@@ -149,5 +152,8 @@ body {
     }
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    font-size: 11px; text-align: center;
+    margin-block-start: auto;
+}
 .attribution a { color: hsl(228, 45%, 44%); }

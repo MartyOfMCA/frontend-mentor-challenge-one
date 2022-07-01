@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Built with
 
-- HTML
+- Semantic HTML5 markup
 - CSS (Custom Properties)
 - Flexbox
 - Mobile-first workflow
